@@ -7,7 +7,7 @@ import { SchedulerComponent } from './components/scheduler.component';
 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './services/in-memory-data.service';
-import { LoginPageComponent } from './login-page/login-page.component';
+// import { LoginPageComponent } from './login-page/login-page.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -24,7 +24,8 @@ import { SelectButtonModule } from 'primeng/selectbutton';
 import { CalendarModule } from 'primeng/calendar';
 
 @NgModule({
-  declarations: [AppComponent, SchedulerComponent, LoginPageComponent],
+  // , LoginPageComponent
+  declarations: [AppComponent, SchedulerComponent],
   imports: [
     HttpClientModule,
     SelectButtonModule,
