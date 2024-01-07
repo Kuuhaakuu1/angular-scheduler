@@ -19,10 +19,11 @@
     "@angular/platform-browser-dynamic": "^17.0.9",
     "@angular/router": "^17.0.9",
     "@types/dhtmlxscheduler": "^4.3.40",
-    "angular-in-memory-web-api": "^0.14.0",
+    "angular-in-memory-web-api": "^0.17.0",
     "dhtmlx-scheduler": "^6.0.1",
     "rxjs": "~7.5.5",
     "tslib": "^2.4.0",
+    "primeng": "^17.3.0",
     "zone.js": "~0.14.0"
   },
   "devDependencies": {
