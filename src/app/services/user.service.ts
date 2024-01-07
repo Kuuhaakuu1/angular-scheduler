@@ -7,7 +7,7 @@ import { User } from '../entities/user';
   providedIn: 'root',
 })
 export class UserService {
-  url: string = 'http://localhost:8080/User';
+  url: string = 'http://localhost:8080/student';
   constructor(private http: HttpClient) {}
 
   public getUserById(id: number): Observable<User> {
